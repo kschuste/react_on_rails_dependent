@@ -13,7 +13,7 @@ const config = {
   ],
 
   output: {
-    filename: 'webpack-bundle.js',
+    filename: 'dependent-bundle.js',
     path: '../app/assets/webpack',
   },
 

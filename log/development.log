@@ -103,3 +103,141 @@ Processing by HelloWorldController#index as HTML
 Completed 200 OK in 1576ms (Views: 1568.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/hello_universe" for ::1 at 2016-12-21 17:05:42 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_universe"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (11.0ms)
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.6ms)
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.3ms)
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (121.9ms)
+Started GET "/hello_world" for ::1 at 2016-12-22 10:18:51 -0600
+Processing by HelloWorldController#index as HTML
+  Rendering hello_world/index.html.erb within layouts/application
+[react_on_rails] RENDERED HelloWorld to dom node with id: HelloWorld-react-component-2bc8f377-acc6-4cfe-9690-6c50c0bfc695 with railsContext:","{\"inMailer\":false,\"i18nLocale\":\"en\",\"i18nDefaultLocale\":\"en\",\"href\":\"http://localhost:3000/hello_world\",\"location\":\"/hello_world\",\"scheme\":\"http\",\"host\":\"localhost\",\"port\":3000,\"pathname\":\"/hello_world\",\"search\":null,\"httpAcceptLanguage\":\"en-US,en;q=0.8\",\"serverSide\":true}
+  Rendered hello_world/index.html.erb within layouts/application (766.3ms)
+Completed 200 OK in 1742ms (Views: 1731.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for ::1 at 2016-12-22 10:21:13 -0600
+Processing by HelloWorldController#index as HTML
+  Rendering hello_world/index.html.erb within layouts/application
+[react_on_rails] RENDERED HelloWorld to dom node with id: HelloWorld-react-component-a5de8767-2832-48d3-95a8-1cb8bee9ee80 with railsContext:","{\"inMailer\":false,\"i18nLocale\":\"en\",\"i18nDefaultLocale\":\"en\",\"href\":\"http://localhost:3000/hello_world\",\"location\":\"/hello_world\",\"scheme\":\"http\",\"host\":\"localhost\",\"port\":3000,\"pathname\":\"/hello_world\",\"search\":null,\"httpAcceptLanguage\":\"en-US,en;q=0.8\",\"serverSide\":true}
+  Rendered hello_world/index.html.erb within layouts/application (633.1ms)
+Completed 200 OK in 1569ms (Views: 1560.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_universe" for ::1 at 2016-12-22 10:21:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_universe"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (8.9ms)
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.6ms)
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.0ms)
+Started GET "/hello_universe" for ::1 at 2016-12-22 10:47:21 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/hello_universe"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.3ms)
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.4ms)
+  Rendering /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.2ms)
+  Rendered /Users/ks016210/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.9ms)
+Started GET "/hello_world" for ::1 at 2016-12-22 10:47:25 -0600
+Processing by HelloWorldController#index as HTML
+  Rendering hello_world/index.html.erb within layouts/application
+[react_on_rails] RENDERED HelloWorld to dom node with id: HelloWorld-react-component-6ccde5d9-f738-44b9-9823-23209157b969 with railsContext:","{\"inMailer\":false,\"i18nLocale\":\"en\",\"i18nDefaultLocale\":\"en\",\"href\":\"http://localhost:3000/hello_world\",\"location\":\"/hello_world\",\"scheme\":\"http\",\"host\":\"localhost\",\"port\":3000,\"pathname\":\"/hello_world\",\"search\":null,\"httpAcceptLanguage\":\"en-US,en;q=0.8\",\"serverSide\":true}
+  Rendered hello_world/index.html.erb within layouts/application (616.9ms)
+Completed 200 OK in 875ms (Views: 874.3ms | ActiveRecord: 0.0ms)
+
+
